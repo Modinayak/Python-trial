@@ -1,0 +1,28 @@
+a=[]
+i=9
+while i<=200:
+    if i%9==0:
+        a.append(i)
+    else:
+        pass
+    i=i+1
+print(a)
+for i in a:
+    k=str(i)
+    if len(k)==1:
+        print(k)
+    elif len(k)==2:
+        a=k[0]
+        b=k[1]
+        if a<b:
+            print(k)
+        else:
+            pass
+    if len(k)==3:
+        a=k[0]
+        b=k[1]
+        c=k[2]
+        if a<b<c:
+            print(k)
+        else:
+            pass
