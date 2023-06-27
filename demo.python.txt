@@ -1,6 +1,6 @@
 a=[]
 i=9
-while i<=300:
+while i<=400:
     if i%9==0:
         a.append(i)
     else:
